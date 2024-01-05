@@ -13,13 +13,13 @@ Make sure you have the following software installed on your machine:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/react-app.git
+    git clone https://github.com/AshenWijesingha/react-crud-app.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd react-app
+    cd react-crud-app
     ```
 
 3. Install frontend dependencies:
@@ -30,21 +30,7 @@ Make sure you have the following software installed on your machine:
 
 ## Backend Installation
 
-### Backend in `/node_modules` Folder
-
-1. Navigate to the backend folder:
-
-    ```bash
-    cd node_modules
-    ```
-
-2. Install backend dependencies:
-
-    ```bash
-    npm install
-    ```
-
-### Backend in `/backend/node_modules` Folder
+### Backend in `/backend` Folder
 
 1. Navigate to the backend folder:
 
@@ -58,9 +44,19 @@ Make sure you have the following software installed on your machine:
     npm install
     ```
 
+
+
 ## Running the App
 
 After installing the dependencies, you can run the React app with the following command:
 
+For the frontend run:
 ```bash
 npm start
+```
+
+For the backend:
+navigate to backend folder and run
+```bash
+npm start
+```
